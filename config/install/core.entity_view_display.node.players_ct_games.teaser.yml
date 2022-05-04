@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.players_ct_games.field_palyers_game
+    - node.type.players_ct_games
+  module:
+    - user
+id: node.players_ct_games.teaser
+targetEntityType: node
+bundle: players_ct_games
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_palyers_game: true

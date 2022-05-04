@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_players_date
+    - paragraphs.paragraphs_type.players_parag_games
+  module:
+    - datetime_range
+id: paragraph.players_parag_games.field_players_date
+field_name: field_players_date
+entity_type: paragraph
+bundle: players_parag_games
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

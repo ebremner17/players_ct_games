@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.players_parag_games.field_players_date
+    - field.field.paragraph.players_parag_games.field_players_game_type
+    - paragraphs.paragraphs_type.players_parag_games
+  module:
+    - datetime_range
+id: paragraph.players_parag_games.default
+targetEntityType: paragraph
+bundle: players_parag_games
+mode: default
+content:
+  field_players_date:
+    type: daterange_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_players_game_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

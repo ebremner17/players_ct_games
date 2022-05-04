@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Game Type'
+vid: players_vocab_game_type
+description: 'Gmae types for Players Inc.'
+weight: 0

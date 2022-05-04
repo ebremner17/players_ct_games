@@ -1,0 +1,6 @@
+required:
+  - core.entity_form_display.paragraph.players_parag_games.default
+  - core.entity_view_display.paragraph.players_parag_games.default
+  - field.field.paragraph.players_parag_games.field_players_date
+  - field.field.paragraph.players_parag_games.field_players_game_type
+  - taxonomy.vocabulary.players_vocab_game_type

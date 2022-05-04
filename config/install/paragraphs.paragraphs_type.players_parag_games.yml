@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: players_parag_games
+label: Games
+icon_uuid: null
+icon_default: null
+description: 'Games for Players Inc.'
+behavior_plugins: {  }

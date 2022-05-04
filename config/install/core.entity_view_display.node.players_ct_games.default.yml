@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.players_ct_games.field_palyers_game
+    - node.type.players_ct_games
+  module:
+    - entity_reference_revisions
+    - user
+id: node.players_ct_games.default
+targetEntityType: node
+bundle: players_ct_games
+mode: default
+content:
+  field_palyers_game:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
