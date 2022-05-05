@@ -12,7 +12,7 @@ entity_type: paragraph
 bundle: players_parag_games
 label: Date
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
